@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+/** Fonts **/
+/** Colors **/
+/** Images **/
 /**INICIO**/
 .header {
   justify-content: space-between;
@@ -16,7 +19,7 @@
   padding: 0px !important; }
 
 .clave {
-  width: 15%;
+  width: 50%;
   height: 100%; }
 
 .seccion, .videoPadre, .cancion, .titular, .organizacion, .organizacion-section, .eventos {
@@ -62,7 +65,8 @@ a, a:hover {
 
 .alineado {
   margin-right: 5px;
-  padding-right: 5px; }
+  padding-right: 5px;
+  text-align: center; }
 
 .orden {
   padding-top: 175px;
@@ -160,7 +164,6 @@ a, a:hover {
 
 /**EVENTOS**/
 table {
-  background-color: #f5adff;
   font-family: "Merriweather", serif;
   height: 100%; }
   table p {
