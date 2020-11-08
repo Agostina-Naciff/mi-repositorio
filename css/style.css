@@ -19,8 +19,8 @@
   padding: 0px !important; }
 
 .clave {
-  width: 50%;
-  height: 100%; }
+  width: 35%;
+  height: 75%; }
 
 .seccion, .videoPadre, .cancion, .titular, .organizacion, .organizacion-section, .eventos {
   display: flex;
@@ -87,6 +87,9 @@ a, a:hover {
     -o-transition: all 0.25s ease 0.25s;
     -ms-transition: all 0.25s ease 0.25; }
 
+.carousel {
+  color: #ffb6c1; }
+
 .iconos {
   text-align: center;
   margin-top: 40px; }
@@ -110,9 +113,10 @@ a, a:hover {
 /**MIS COVERS**/
 .cover {
   text-align: center;
-  background-color: #ffb2ae;
+  background-color: #000000;
   padding: 20px 4px;
-  font-family: "Merriweather", serif; }
+  font-family: "Merriweather", serif;
+  color: #ffff; }
   .cover .row {
     justify-content: center; }
 
@@ -132,10 +136,11 @@ a, a:hover {
 .ultimo {
   font-family: "Dancing Script", cursive;
   font-size: x-large;
-  background-color: #ffb2ae;
+  background-color: #000000;
   padding: 30px 10px;
   font-weight: bold;
-  text-align: center; }
+  text-align: center;
+  color: #ffff; }
 
 /**SOBRE MI**/
 .titular {
@@ -167,7 +172,7 @@ table {
   font-family: "Merriweather", serif;
   height: 100%; }
   table p {
-    color: #0e0d0d;
+    color: #000000;
     font-family: cursive;
     font-size: medium; }
 
@@ -188,7 +193,7 @@ table {
 .pie {
   font-family: "Dancing Script", cursive;
   font-size: x-large;
-  background-color: #ffb2ae;
+  background-color: #000000;
   padding: 2px 3px;
   text-align: center;
   display: flex;

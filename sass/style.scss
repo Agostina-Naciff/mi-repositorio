@@ -10,9 +10,10 @@ $secondFontFamily: 'Dancing Script', cursive;
 
 /** Colors **/
 $tituloColor: #ffb6c1;
-$bannerColor: #ffb2ae;
-$tableFontColor: #0e0d0d;
+$bannerColor: #000000;
+$tableFontColor:#000000;
 $eventColor: #FFDFD3;
+$colorFontBanner: #ffff;
 
 /** Images **/
 $background: url(../imagenes/fondo1.JPG.jpeg);
@@ -32,8 +33,8 @@ $background: url(../imagenes/fondo1.JPG.jpeg);
 }
 
 .clave {
-    width: 50%;
-    height: 100%;
+    width: 35%;
+    height: 75%;
 }
 
 .seccion {
@@ -118,6 +119,10 @@ a {
     }
 }
 
+.carousel {
+    color: $tituloColor;
+}
+
 .iconos {
     text-align: center;
     margin-top: 40px;
@@ -149,6 +154,7 @@ a {
     background-color: $bannerColor;
     padding: 20px 4px;
     font-family: $firstFontFamily;
+    color: $colorFontBanner;
     .row {
         justify-content: center;
     }
@@ -182,6 +188,7 @@ a {
     padding: 30px 10px;
     font-weight: bold;
     text-align: center;
+    color: $colorFontBanner;
 }
 
 /**SOBRE MI**/
