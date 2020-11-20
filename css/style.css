@@ -349,6 +349,7 @@ a, a:hover {
   .iconos {
     margin-top: 15px; }
   .redes {
+    font-size: 6px;
     margin-left: 10px; }
   /* mis covers */
   .youtube {
@@ -395,6 +396,8 @@ a, a:hover {
   .menu li {
     padding-left: 0px;
     padding-right: 5px; }
+  .redes {
+    font-size: 10px; }
   .clave {
     width: 45%; }
   .titulo {
