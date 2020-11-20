@@ -59,7 +59,9 @@ a, a:hover {
   margin-top: 40px; }
 
 .redes {
-  margin-left: 25px; }
+  font-size: 40px;
+  margin-left: 25px;
+  color: #fff; }
 
 .foto {
   margin-top: 30px;
@@ -119,6 +121,11 @@ a, a:hover {
 
 .carousel-indicators li {
   background-color: #ffb6c1; }
+
+.carousel-caption {
+  right: 60%;
+  bottom: 17%;
+  left: 6%; }
 
 /**EVENTOS**/
 .cal {

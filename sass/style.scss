@@ -87,7 +87,9 @@ a {
 }
 
 .redes {
+    font-size: 40px;
     margin-left: 25px;
+    color: #fff;
 }
 
 .foto {
@@ -169,6 +171,12 @@ a {
 
 .carousel-indicators li {
     background-color:#ffb6c1 ;
+}
+
+.carousel-caption {
+    right: 60%;
+    bottom: 17%;
+    left: 6%;
 }
 
 /**EVENTOS**/
